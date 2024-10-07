@@ -125,7 +125,7 @@ namespace FileSync
         {
             try
             {
-                // Alle Dateien im aktuellen Verzeichnis durchlaufen ???66666666
+                // Alle Dateien im aktuellen Verzeichnis durchlaufen
                 string[] files = Directory.GetFiles(pfad);
                 foreach (string file in files)
                 {
