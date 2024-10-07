@@ -33,7 +33,7 @@ namespace FileSync
 
                 Console.WriteLine("Start: " + DateTime.Now.ToLongTimeString());
                 Console.WriteLine(DateTime.Now.ToLongTimeString() + " Lese Verzeichnisse...");
-                var listCurrentDir = Directory.GetDirectories(@"N:\Transcend\Kamera", "*.*", SearchOption.AllDirectories);
+                var listCurrentDir = Directory.GetDirectories(SourceDir, "*.*", SearchOption.AllDirectories);
 
                 var iCountChangesOrg = 0;
                 var iCountChangesDest = 0;
